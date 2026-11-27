@@ -1,0 +1,12 @@
+; N: George Hany
+; SID: 2025001170
+; S: Sec 2 
+; Q:  Q2 - 1's and 2's Complement
+
+LDA 2500H     
+CMA           
+STA 2501H     
+ADI 01H       
+STA 2502H     
+HLT
+
